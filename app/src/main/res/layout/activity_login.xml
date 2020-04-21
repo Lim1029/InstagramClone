@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/instagram_main_background"
     android:onClick="rootLayoutTapped"
-    tools:context=".SignUp">
+    tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -25,7 +25,7 @@
             android:tint="#000000" />
 
         <EditText
-            android:id="@+id/edtUsernameInSignUp"
+            android:id="@+id/edtUsernameInLogIn"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
@@ -35,11 +35,10 @@
             android:ems="10"
             android:hint="username"
             android:inputType="textPersonName"
-            android:paddingLeft="10dp"
-            android:textColor="#000000" />
+            android:paddingLeft="10dp" />
 
         <EditText
-            android:id="@+id/edtEmailInSignUp"
+            android:id="@+id/edtEmailInLogin"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
@@ -52,7 +51,7 @@
             android:paddingLeft="10dp" />
 
         <EditText
-            android:id="@+id/edtPasswordInSignUp"
+            android:id="@+id/edtPasswordInLogin"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_margin="5dp"
@@ -65,7 +64,7 @@
             android:paddingLeft="10dp" />
 
         <Button
-            android:id="@+id/btnSignUpInSignUp"
+            android:id="@+id/btnLogInInLogin"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -73,7 +72,7 @@
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
             android:background="#1976D2"
-            android:text="sign up"
+            android:text="log in"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
@@ -88,16 +87,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Have an account?"
+                android:text="Don't have account?"
                 android:textAlignment="textEnd" />
 
             <TextView
-                android:id="@+id/txtLogInButtonInSignUp"
+                android:id="@+id/txtSignUpButtonInLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:clickable="true"
-                android:text="Log in"
+                android:text="Sign up"
                 android:textColor="#00B0FF" />
         </LinearLayout>
 
